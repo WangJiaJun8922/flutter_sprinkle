@@ -1,12 +1,14 @@
+import 'dart:async';
 import 'package:flutter/material.dart';
 
 class ObserverWidget<T> extends StatelessWidget {
-   @required
+  @required
   final Stream<T> stream;
   final T initialData;
 
   @required
   final Function onSuccess;
+
   final Function onError;
   final Function onWaiting;
 
