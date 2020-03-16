@@ -1,2 +1,2 @@
 library flutter_sprinkle;
-export 'extension.dart';
+export './SprinkleExtension.dart';
